@@ -1,0 +1,104 @@
+body{
+    margin:  0;
+    padding: 0;
+    background-size: cover;
+    background-image: url(../images/book-1149031_1280.jpg);
+}
+.overlay{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color:black;
+    opacity: 0.7;
+    z-index: -1;
+}
+.container{
+    margin: 20px auto;
+    text-align: center;
+    width: 480px;
+    height: 580px;
+    background: #343A40;
+    color: #EFEFEF;
+    border: 2.5px solid #1A73E8;  
+    border-radius: 20px;
+    opacity: 0.85;
+}
+.container form h3 span{
+    color: aquamarine;
+}
+.container form{
+    padding: 40px;
+}
+.container form h1{
+    padding: 15px;
+}
+.container form h3{
+    padding: 15px;
+}
+.inp{
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    height: 40px;
+    background-color: #B1BAC1;
+    border: 1.5px none;
+    border-style: solid;
+    border-color:#1A73E8;
+    padding-right: 10px; 
+    border-radius: 4px;
+}
+.container form .btn{
+    padding: 6px 25px;
+    width: 100%;
+}
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;  
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+    background: #125688;
+    color:white;
+}
+.fa-google{
+    background: #dd4b39;
+    color:white;
+}
+.fa-facebook:hover{
+ background: #627AAD;
+}
+.fa-twitter:hover{
+ background: #77BDF1;
+}
+.fa-google:hover{
+ background: #E46F61;
+}
+.fa-instagram:hover{
+ background: #4178A0;
+}
+.fa:hover{
+    color:white;
+    text-decoration: none;
+    font-size: 150%;
+    transition-duration: 0.5s;
+}
+.fa:active{
+    color:white;
+    text-decoration: none;
+    font-size: 150%;
+}

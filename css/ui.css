@@ -1,0 +1,127 @@
+body{
+    background:#EEEDEB;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+  
+}
+
+slider{
+    background-size: cover;
+}
+.navbar #navbarNav ul li a{
+    color:white;
+    padding: 15px 40px;
+    background-size: cover;
+}
+.navbar #navbarNav ul li a:hover{
+    background-color: #ccc;
+    color: black;
+    transition-duration: 0.5s;
+}
+#navbarNav{
+text-align: center;
+}
+.overlay{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,20,0.6);
+    z-index:2;
+}
+#article{
+    position: absolute;
+    top : 64%;
+    right: 0;
+    width: 100%;
+    height: auto;
+    margin-right: -29%;
+    color:white;
+    z-index: 10000000001;
+    font-size: 2.7vw;
+}
+#article2{
+    position: absolute;
+    top : 74%;
+    right: -24.5%;
+    width: 100%;
+    height: auto;
+    margin-right: -20.5%;
+    color:white;
+    z-index: 10000000001;
+    font-size: 2.7vw;
+    
+}
+#wename{
+    color: aqua;
+}
+.container{
+text-align: right;   
+line-height: 50px;    
+}
+.container p{
+    font-size: 19px;
+}
+.win{
+    border-bottom: 1px solid #aaa;
+    padding: 20px;
+}
+.social{
+    text-align: center;
+    margin: 30px;
+    margin-top: 100px;
+}
+.social p{
+    font-size: 15px;
+}
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;  
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+    background: #125688;
+    color:white;
+}
+.fa-google{
+    background: #dd4b39;
+    color:white;
+}
+.fa-facebook:hover{
+ background: #627AAD;
+}
+.fa-twitter:hover{
+ background: #77BDF1;
+}
+.fa-google:hover{
+ background: #E46F61;
+}
+.fa-instagram:hover{
+ background: #4178A0;
+}
+.fa:hover{
+    color:white;
+    text-decoration: none;
+    font-size: 150%;
+    transition-duration: 0.5s;
+}
+.fa:active{
+    color:white;
+    text-decoration: none;
+    font-size: 150%;
+}
